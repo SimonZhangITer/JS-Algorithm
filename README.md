@@ -33,7 +33,7 @@ Pascal之父Nicklaus Wirth曾说过一个非常著名的公式，<font color=red
 
 - [ ] 冒泡排序
 - [x] [选择排序](./sort/selection.md)
-- [ ] [插入排序](./sort/insert.md)
+- [x] [插入排序](./sort/insert.md)
 - [ ] 快速排序
 - [ ] 归并排序
 - [ ] 希尔排序

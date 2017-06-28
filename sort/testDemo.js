@@ -14,7 +14,6 @@ var arr = [
 ]
 
 // 每找出一个最小元素，将此元素添加进临时数组, 并在原数组中删除此元素，继续遍历，直到原数组的长度为0
-
 function selectionSort(arr) {
   let temp = [], // 存放最小的元素，每次push进去
     len = arr.length
@@ -26,6 +25,7 @@ function selectionSort(arr) {
   return temp
 }
 
+// 插入排序
 function insertSort(arr) {
   for (var i = 1; i < arr.length; i++) {
     var currentData = arr[i];
@@ -39,4 +39,4 @@ function insertSort(arr) {
   return arr
 }
 
-console.log(selectionSort(arr));
+console.log(insertSort(arr));

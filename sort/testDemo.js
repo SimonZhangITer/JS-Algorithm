@@ -4,14 +4,7 @@
 // 4. 然后放到已排序序列的末尾
 // 5. 以此类推，直到所有元素排序完毕
 
-var arr = [
-    2,
-    1,
-    9,
-    6,
-    4,
-    3
-]
+var arr = [2, 1, 9, 6, 4, 3]
 
 // 每找出一个最小元素，将此元素添加进临时数组, 并在原数组中删除此元素，继续遍历，直到原数组的长度为0
 function selectionSort(arr) {
@@ -41,8 +34,15 @@ function insertSort(arr) {
 
 function bubbleSort(arr) {
     for (let i = 0; i < arr.length; i++) {
-
+        for (let j = 0; j < arr.length - 1; j++) {
+            if (arr[j] > arr[j + 1]) { // 相邻元素两两相比
+                let temp = arr[j]
+                arr[j] = arr[j + 1]
+                arr[j + 1] = temp
+            }
+        }
     }
+    return arr
 }
 
 console.log(bubbleSort(arr));

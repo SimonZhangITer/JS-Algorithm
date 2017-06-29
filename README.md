@@ -31,7 +31,7 @@ Pascal之父Nicklaus Wirth曾说过一个非常著名的公式，<font color=red
 
 ### 排序
 
-- [ ] [冒泡排序](./sort/bubble.md)
+- [x] [冒泡排序](./sort/bubble.md)
 - [x] [选择排序](./sort/selection.md)
 - [x] [插入排序](./sort/insertion.md)
 - [ ] [快速排序](./sort/quick.md)

@@ -79,4 +79,4 @@ function BFS(tree, nodes = []) {
   return nodes
 }
 
-console.log(BFS(obj));
+console.log(DFS(obj));

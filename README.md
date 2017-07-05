@@ -42,7 +42,7 @@ Pascal之父Nicklaus Wirth曾说过一个非常著名的公式，<font color=red
 ### 搜索
 
 - [ ] 深度优先搜索
-- [ ] 广度优先搜索
+- [x] [广度优先搜索](./search/BFS.md)
 
 ### 其他算法
 - [ ] 动态规划

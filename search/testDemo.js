@@ -80,3 +80,4 @@ function BFS(tree, nodes = []) {
 }
 
 console.log(DFS(obj));
+console.log(BFS(obj));

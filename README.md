@@ -16,7 +16,7 @@ Pascal之父Nicklaus Wirth曾说过一个非常著名的公式，<font color=red
 
 ## 计划完成的模块
 
-### 数据结构
+### 数据结构 
 
 - [ ] 栈
 - [ ] 队列

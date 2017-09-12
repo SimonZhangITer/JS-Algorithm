@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      padding: 100px;
+    }
+
+    button {
+      font-size: 30px;
+      margin: 10px;
+      background: none;
+      border: 1px solid gray;
+    }
+
+    button:active {
+      opacity: 0.7;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="num" style="font-size:100px">0</div>
+</body>
+<script>
+  var num = document.querySelector('.num')
+  for (let i = 1; i <= 10; i++) {
+    var doc = document.createElement('button')
+    doc.innerHTML = i
+    doc.onclick = function () {
+      num.innerHTML = i
+    }
+    document.body.appendChild(doc)
+  }
+
+</script>
+
+</html>

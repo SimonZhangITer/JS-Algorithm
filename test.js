@@ -7,7 +7,7 @@ for (var i = 1; i <= 10; i++) {
  
   //错误写法
   doc.onclick = function () {
-    console.log(i); 
+    console.log(i);  
   }
 
   //方法一

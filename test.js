@@ -40,5 +40,5 @@ for (var i = 1; i <= 10; i++) {
   // doc.onclick = function(){
   //   console.log(this.dataset.value);
   // };
-  document.body.appendChild(doc);
+  document.body.appendChild(doc); 
 }

@@ -13,7 +13,7 @@ for (var i = 1; i <= 10; i++) {
   //方法一
   // doc.onclick = function() {
   //     console.log(this.toString());
-  // }.bind(i);
+  // }.bind(i); 
 
   //方法二
   // doc.onclick = function (x) {

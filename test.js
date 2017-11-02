@@ -1,7 +1,7 @@
 
 
 for (var i = 1; i <= 10; i++) { 
-  var doc = document.createElement('button'); 
+  var doc = document.createElement('button');  
   doc.innerHTML = i;
   
   //错误写法

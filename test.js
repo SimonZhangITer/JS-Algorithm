@@ -4,7 +4,7 @@ for (var i = 1; i <= 10; i++) {
   var doc = document.createElement('button');  
   doc.innerHTML = i;
   
-  //错误写法
+  //错误写法 
   doc.onclick = function () {
     console.log(i); 
   }
